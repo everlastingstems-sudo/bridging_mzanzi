@@ -38,7 +38,7 @@ $orders = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="container text-center my-5">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
-                <img src="logo.png" alt="Bridging Mzanzi Banner" class="img-fluid mb-2" style="max-height: 140px; width: auto;">
+                <img src="uploads/logo.png" alt="Bridging Mzanzi Banner" class="img-fluid mb-2" style="max-height: 140px; width: auto;">
                 <div class="text-uppercase fw-bold tracking-widest text-secondary small" style="letter-spacing: 2px;">Consuming at its easiest</div>
             </div>
         </div>
