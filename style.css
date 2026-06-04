@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to bottom right, #dff6ff, #b8e0ff);
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 700px;
+    margin: 80px auto;
+    background: #a8d8ff;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section{
+    width: 45%;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #008cff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
