@@ -116,8 +116,8 @@ $avg_stmt = $conn->prepare("
 $avg_stmt->execute([$product_id]);
 $data = $avg_stmt->fetch(PDO::FETCH_ASSOC);
 
-$average_rating = round($data['avg_rating'], 1);
-$total_reviews = $data['total_reviews'];
+$average_rating = round($data['avg_rating'] ?? 0, 1);
+$total_reviews = $data['total_reviews'] ?? 0;
 
 $item_image = !empty($product['image']) 
     ? $product['image'] 
